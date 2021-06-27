@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Первый проект</string>
+    <string name="main_activity_title">EZ English</string>
+    <string name="main_activity_description">Учи новые слова каждый день!</string>
+    <string name="main_activity_random_word">Случайное слово</string>
+    <string name="main_activity_dictionary">Словарь</string>
+    <string name="main_activity_settings">Настройки</string>
+    <string name="main_activity_store">Оставить отзыв</string>
+    <string name="main_activity_bottom">Знания - ключ к свободе</string>
+
+    <string name="random_word_activity_title">Случайное слово</string>
+    <string name="random_word_mock_word">Sample text</string>
+    <string name="random_word_activity_description">
+        Перед тобой случайно вязтое из Интернета слово\n
+        Введи его перевод на русский язык\n
+        \"Подсказка\" выведет описание слова на английском языке\n
+        \"Пропустить\" выведет следующее слово
+    </string>
+    <string name="random_word_activity_translate">Перевод</string>
+    <string name="random_word_activity_send">Перевести</string>
+    <string name="random_word_activity_hint">Подсказка</string>
+    <string name="random_word_activity_skip">Пропустить</string>
+
+    <string name="dictionary_activity_title">Словарь</string>
+    <string name="dictionary_activity_description">
+        Тап по слову выведет описание на английском языке\n
+        \"Правильно\" - сколько раз слово было переведено верно\n
+        \"Ошибки\" - сколько раз слово было переведено неправильно
+    </string>
+    <string name="dictionary_activity_delete">Удалить</string>
+    <string name="dictionary_activity_head_word">Слово</string>
+    <string name="dictionary_activity_head_translate">Перевод</string>
+    <string name="dictionary_activity_head_ok">Правильно</string>
+    <string name="dictionary_activity_head_err">Ошибки</string>
+    <string name="dictionary_activity_add_word_hint">Новое слово</string>
+    <string name="dictionary_activity_add_word">Добавить слово</string>
+
+    <string name="settings_activity_title">Настройки</string>
+    <string name="settings_activity_use_push">Использовать push-уведомления</string>
+    <string name="settings_activity_delete">Очистить словарь</string>
+
+</resources>

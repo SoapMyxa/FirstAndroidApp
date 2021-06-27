@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/main_activity_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/main_activity_title"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/main_activity_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/main_activity_description"
+        android:textAlignment="gravity"
+        android:textColor="@color/gray_3"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_activity_title" />
+
+
+
+<!--    <TextView
+        android:id="@+id/auth_activity_description_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="@string/auth_activity_description_two"
+        android:textAlignment="gravity"
+        android:textColor="@color/gray_3"
+        android:textSize="14sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_activity_title" />-->
+
+
+
+    <TextView
+        android:id="@+id/main_activity_random_word_btn"
+        android:layout_width="250dp"
+        android:layout_height="54dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="@string/main_activity_random_word"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/button_bg"
+        app:layout_constraintTop_toBottomOf="@+id/main_activity_description"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/main_activity_dictionary_btn"
+        android:layout_width="250dp"
+        android:layout_height="54dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="@string/main_activity_dictionary"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_bg"
+        app:layout_constraintTop_toBottomOf="@+id/main_activity_random_word_btn"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/main_activity_settings_btn"
+        android:layout_width="250dp"
+        android:layout_height="54dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="@string/main_activity_settings"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_bg"
+        app:layout_constraintTop_toBottomOf="@+id/main_activity_dictionary_btn"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/main_activity_store_btn"
+        android:layout_width="250dp"
+        android:layout_height="54dp"
+        android:textAlignment="gravity"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:text="@string/main_activity_store"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/button_yl"
+        app:layout_constraintTop_toBottomOf="@+id/main_activity_settings_btn"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:id="@+id/main_activity_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray_3"
+        android:text="@string/main_activity_bottom"
+        android:textSize="16sp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
