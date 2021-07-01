@@ -39,4 +39,11 @@
     <string name="settings_activity_use_push">Использовать push-уведомления</string>
     <string name="settings_activity_delete">Очистить словарь</string>
 
+    <string name="reqres_list_users">List users</string>
+    <string name="reqres_single_user">Single user</string>
+    <string name="reqres_single_user_err">Single user err</string>
+    <string name="reqres_resources_list">Resources list</string>
+    <string name="reqres_single_resource">Single resource</string>
+    <string name="reqres_single_resource_err">Single resource err</string>
+
 </resources>
