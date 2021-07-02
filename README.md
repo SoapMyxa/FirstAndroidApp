@@ -1,5 +1,9 @@
 # FirstAndroidApp
 
+## Обоснование выбора БД 
+
+Изменения по БД еще не внесены
+
 Преимущества Room
 1. Честный SQL, реляционная база. (привык с ними работать) Возможность написать сложный запрос при необходимости (например, отобразить какую-нибудь статистику, типа сколько слов в среднем в день переводит пользователь итп. С нормальными SQL запросами это сделать легче, чем через методы realm)
 2. Легковесность (200 кб против 2мб realm)
@@ -20,12 +24,24 @@
 2. Судя по всему, SQLite (room) в данном приложении будет излишним, для функционала достаточно Realm 
 3. Полагаю, что на таком маленьком объеме данных более высокая производительность Insertов в SQLite никак не скажется на работе приложения, следовательно этим недостатком Realm можно пренебречь.
 
+## Запросы к апи Reqres
+Логи
+https://github.com/SoapMyxa/FirstAndroidApp/blob/master/app/sampledata/Reqres%20logs.txt
 
+Активити
+![alt text](https://github.com/SoapMyxa/FirstAndroidApp/blob/master/app/sampledata/Screenshots/ReqresActivity.jpg)
+
+Результаты
+![alt text](https://github.com/SoapMyxa/FirstAndroidApp/blob/master/app/sampledata/Screenshots/Reqres.JPG)
+
+## Запросы к апи
 Request
 ![alt text](https://github.com/SoapMyxa/FirstAndroidApp/blob/master/app/sampledata/Screenshots/Request.JPG)
 
 Request Result
 ![alt text](https://github.com/SoapMyxa/FirstAndroidApp/blob/master/app/sampledata/Screenshots/RequestResult.JPG)
+
+## Activities
 
 Main window
 ![alt text](https://github.com/SoapMyxa/FirstAndroidApp/blob/master/app/sampledata/Screenshots/Main.jpg)
