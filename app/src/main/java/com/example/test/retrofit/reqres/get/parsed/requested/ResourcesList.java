@@ -5,6 +5,12 @@ import com.example.test.retrofit.reqres.get.parsed.entities.Resource;
 
 import java.util.List;
 
+/**
+ * Результат запроса в виде списка Resource
+ *
+ * Service: ListResourceService
+ *
+ */
 public class ResourcesList {
 
     private int per_page;

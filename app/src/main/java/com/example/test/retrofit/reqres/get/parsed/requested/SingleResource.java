@@ -3,6 +3,12 @@ package com.example.test.retrofit.reqres.get.parsed.requested;
 import com.example.test.retrofit.reqres.get.parsed.entities.Resource;
 import com.example.test.retrofit.reqres.get.parsed.entities.Support;
 
+/**
+ * Результат запроса в виде одного Resource
+ *
+ * Service: SingleResourceService
+ *
+ */
 public class SingleResource {
 
     private Resource data;

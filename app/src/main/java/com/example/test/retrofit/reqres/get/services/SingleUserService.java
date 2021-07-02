@@ -10,8 +10,8 @@ import retrofit2.http.Path;
 public interface SingleUserService {
 
     /**
-     * https://reqres.in/api/unknown/2
-     * возвращает JSON с одним ресурсом
+     * https://reqres.in/api/users/2
+     * возвращает JSON с одним пользователем
      *
      * {
      *     "data": {
@@ -28,7 +28,7 @@ public interface SingleUserService {
      * }
      *
      */
-    @GET("unknown/{id}")
+    @GET("users/{id}")
     Call<SingleUser> user(@Path("id") Integer page);
 
 }

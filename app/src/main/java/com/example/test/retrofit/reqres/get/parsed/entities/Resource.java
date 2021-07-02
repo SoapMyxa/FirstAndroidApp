@@ -1,5 +1,9 @@
 package com.example.test.retrofit.reqres.get.parsed.entities;
 
+/**
+ * Сущность "Ресурс" (Resource)
+ *
+ */
 public class Resource {
 
     private int id;

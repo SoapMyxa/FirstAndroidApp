@@ -1,5 +1,10 @@
 package com.example.test.retrofit.reqres.get.parsed.entities;
 
+/**
+ * Сущность Support
+ * Добавочная информация в GET запросах
+ *
+ */
 public class Support {
 
     private String url;

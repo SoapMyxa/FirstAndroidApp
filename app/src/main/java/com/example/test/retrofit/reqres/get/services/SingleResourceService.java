@@ -1,5 +1,6 @@
 package com.example.test.retrofit.reqres.get.services;
 
+import com.example.test.retrofit.reqres.get.parsed.requested.SingleResource;
 import com.example.test.retrofit.reqres.get.parsed.requested.SingleUser;
 
 import retrofit2.Call;
@@ -10,16 +11,16 @@ import retrofit2.http.Path;
 public interface SingleResourceService {
 
     /**
-     * https://reqres.in/api/users/2
-     * возвращает JSON с одним пользователем
+     * https://reqres.in/api/unknown/2
+     * возвращает JSON с одним ресурсом
      *
      * {
      *     "data": {
      *         "id": 2,
-     *         "email": "janet.weaver@reqres.in",
-     *         "first_name": "Janet",
-     *         "last_name": "Weaver",
-     *         "avatar": "https://reqres.in/img/faces/2-image.jpg"
+     *         "name": "fuchsia rose",
+     *         "year": 2001,
+     *         "color": "#C74375",
+     *         "pantone_value": "17-2031"
      *     },
      *     "support": {
      *         "url": "https://reqres.in/#support-heading",
@@ -28,7 +29,7 @@ public interface SingleResourceService {
      * }
      *
      */
-    @GET("users/{id}")
-    Call<SingleUser> resource(@Path("id") Integer page);
+    @GET("unknown/{page}")
+    Call<SingleResource> resource(@Path("page") Integer page);
 
 }

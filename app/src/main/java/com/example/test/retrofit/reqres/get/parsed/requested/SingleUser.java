@@ -3,6 +3,12 @@ package com.example.test.retrofit.reqres.get.parsed.requested;
 import com.example.test.retrofit.reqres.get.parsed.entities.Support;
 import com.example.test.retrofit.reqres.get.parsed.entities.User;
 
+/**
+ * Результат запроса в виде одного User
+ *
+ * Service: SingleUserService
+ *
+ */
 public class SingleUser {
 
     private User data;

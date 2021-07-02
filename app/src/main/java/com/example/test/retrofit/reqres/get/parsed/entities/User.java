@@ -1,5 +1,9 @@
 package com.example.test.retrofit.reqres.get.parsed.entities;
 
+/**
+ * Сущность User
+ *
+ */
 public class User {
 
     private int id;

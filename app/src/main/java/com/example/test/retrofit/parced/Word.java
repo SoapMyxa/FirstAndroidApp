@@ -1,5 +1,12 @@
 package com.example.test.retrofit.parced;
 
+/**
+ * Сущность - слово
+ *
+ * Поля - слово, значение, произношение
+ * Service - RandomWordService
+ *
+ */
 public class Word {
 
     private String word;

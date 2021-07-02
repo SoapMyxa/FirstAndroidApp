@@ -6,7 +6,10 @@ import com.example.test.retrofit.reqres.get.parsed.entities.User;
 import java.util.List;
 
 /**
- * Класс для JSON, возвращаемого из сервиса ListUsersService
+ * Результат запроса, возвращает список User
+ *
+ * Service: ListUsersService, ListUsersServiceDelay
+ *
  */
 
 public class UsersList {
