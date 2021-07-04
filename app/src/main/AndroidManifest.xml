@@ -11,19 +11,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
-        <activity android:name=".activities.ReqresActivity">
+        <activity android:name=".activities.CustomViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.Settings"></activity>
-        <activity android:name=".activities.Dictionary"></activity>
-        <activity android:name=".activities.RandomWordActivity">
+        <activity android:name=".activities.ReqresActivity">
 
         </activity>
-        <activity android:name=".activities.MainActivity"></activity>
+        <activity android:name=".activities.Settings" />
+        <activity android:name=".activities.Dictionary" />
+        <activity android:name=".activities.RandomWordActivity"></activity>
+        <activity android:name=".activities.MainActivity" />
     </application>
 
 </manifest>
