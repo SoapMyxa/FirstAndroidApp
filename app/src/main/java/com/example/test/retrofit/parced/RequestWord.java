@@ -7,7 +7,7 @@ package com.example.test.retrofit.parced;
  * Service - RandomWordService
  *
  */
-public class Word {
+public class RequestWord {
 
     private String word;
     private String definition;

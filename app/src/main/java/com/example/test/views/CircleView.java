@@ -18,11 +18,6 @@ public class CircleView extends View {
 
     public CircleView(Context context, AttributeSet attrs) {
         super(context, attrs);
-        TypedArray typedArray = getContext().obtainStyledAttributes(attrs, R.styleable.CircleView);
-        int count = typedArray.getInt(R.styleable.CircleView_fcv_count,0);
-        radius = typedArray.getInt(R.styleable.CircleView_fcv_radius,100);
-        typedArray.recycle();
-
     }
 
 
@@ -31,6 +26,8 @@ public class CircleView extends View {
 
         int x = getWidth() /2;
         int y = getHeight() /2;
+
+        radius = y/2;
 
         paint.setColor(Color.MAGENTA);
         canvas.drawCircle(x, y, radius, paint);

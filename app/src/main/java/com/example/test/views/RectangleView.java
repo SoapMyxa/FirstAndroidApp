@@ -25,8 +25,12 @@ public class RectangleView extends View {
         int x = getWidth() /2;
         int y = getHeight() /2;
 
+        float top = y >> 1;
+        float bottom = y + top;
+
+
         paint.setColor(Color.MAGENTA);
-        canvas.drawRect(x-100, y-100, x+100, y+100, paint);
+        canvas.drawRect(0, top, getWidth(), bottom, paint);
         super.onDraw(canvas);
     }
 
