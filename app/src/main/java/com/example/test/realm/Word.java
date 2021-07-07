@@ -11,12 +11,14 @@ public class Word extends RealmObject {
     @Required private String word;
     @Required private String definition;
     @Required private String pronunciation;
+              private String translated;
 
     public Word() {
     }
 
-    public Word(String word) {
+    public Word(String word, String translated) {
         this.word = word;
+        this.translated = translated;
     }
 
     public Word(String word, String definition, String pronunciation) {

@@ -16,8 +16,15 @@ public class MyApp extends Application {
 
         Realm.init(this);
         String realmName = "My Project";
-        RealmConfiguration config = new RealmConfiguration.Builder().name(realmName).build();
+        RealmConfiguration config = new RealmConfiguration
+                                       .Builder()
+                                       .inMemory() // пока только в памяти, чтобы не захламлять
+                                       .allowQueriesOnUiThread(true)
+                                       .allowWritesOnUiThread(true)
+                                       .name(realmName)
+                                       .build();
         uiThreadRealm = Realm.getInstance(config);
+        Realm.setDefaultConfiguration(config);
 
     }
 

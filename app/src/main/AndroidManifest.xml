@@ -16,16 +16,21 @@
 
         </activity>
         <activity android:name=".activities.ReqresActivity">
+
+        </activity>
+        <activity android:name=".activities.Settings" />
+        <activity android:name=".activities.DictionaryActivity" />
+        <activity android:name=".activities.RandomWordActivity">
+        </activity>
+        <activity android:name=".activities.MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activities.Settings" />
-        <activity android:name=".activities.Dictionary" />
-        <activity android:name=".activities.RandomWordActivity"></activity>
-        <activity android:name=".activities.MainActivity" />
+
     </application>
 
 </manifest>

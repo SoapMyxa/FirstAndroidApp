@@ -20,6 +20,7 @@
     <string name="random_word_activity_send">Перевести</string>
     <string name="random_word_activity_hint">Подсказка</string>
     <string name="random_word_activity_skip">Пропустить</string>
+    <string name="random_word_activity_home">На главный экран</string>
 
     <string name="dictionary_activity_title">Словарь</string>
     <string name="dictionary_activity_description">
