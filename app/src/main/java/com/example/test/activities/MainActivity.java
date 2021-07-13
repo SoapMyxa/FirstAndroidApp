@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import com.example.test.R;
 
+import com.example.test.mvp.presentation.RandomWordActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override

@@ -20,7 +20,7 @@
         </activity>
         <activity android:name=".activities.Settings" />
         <activity android:name=".activities.DictionaryActivity" />
-        <activity android:name=".activities.RandomWordActivity">
+        <activity android:name=".mvp.presentation.RandomWordActivity">
         </activity>
         <activity android:name=".activities.MainActivity">
 

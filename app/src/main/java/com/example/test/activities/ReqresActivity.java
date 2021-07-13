@@ -162,7 +162,7 @@ public class ReqresActivity extends AppCompatActivity {
     }
 
     /**
-     * Callback для вызова
+     * ICallback для вызова
      * @param requestName - ключ для логирования
      * @param <T> - тип возвращаемого объекта (смотри пакеты retrofit.reqres.requested)
      * @return запрос после обработки

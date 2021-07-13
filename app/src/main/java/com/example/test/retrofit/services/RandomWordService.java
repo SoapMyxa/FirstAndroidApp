@@ -1,11 +1,12 @@
 package com.example.test.retrofit.services;
 
-import com.example.test.retrofit.parced.RequestWord;
+import com.example.test.mvp.entity.RandomWordDto;
 
 import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
+import retrofit2.http.Url;
 
 public interface RandomWordService {
 
@@ -23,6 +24,7 @@ public interface RandomWordService {
      *
      */
     @GET("word")
-    Call<List<RequestWord>> getRandomWord(); //List - т.к. JSON возвращается в виде массива с одним словом
+    //List - т.к. JSON возвращается в виде массива с одним словом
+    Call<List<RandomWordDto>> getRandomWord();
 
 }

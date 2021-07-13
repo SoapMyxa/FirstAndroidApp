@@ -43,4 +43,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation 'androidx.recyclerview:recyclerview:1.2.1'
     implementation 'io.realm:android-adapters:4.0.0'
+    // Новый способ для RxJava 3
+    implementation "io.reactivex.rxjava3:rxjava:3.0.13"
 }
